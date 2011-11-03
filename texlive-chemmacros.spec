@@ -1,3 +1,9 @@
+# revision 24428
+# category Package
+# catalog-ctan /macros/latex/contrib/chemmacros
+# catalog-date 2011-10-28 19:27:59 +0200
+# catalog-license lppl1.3
+# catalog-version 2.0
 Name:		texlive-chemmacros
 Version:	2.0
 Release:	1
@@ -44,6 +50,7 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_de.tex
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.pdf
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
