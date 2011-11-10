@@ -1,11 +1,11 @@
-# revision 24428
+# revision 24494
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2011-10-28 19:27:59 +0200
+# catalog-date 2011-11-03 22:55:24 +0100
 # catalog-license lppl1.3
-# catalog-version 2.0
+# catalog-version 2.0a
 Name:		texlive-chemmacros
-Version:	2.0
+Version:	2.0a
 Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
