@@ -17,8 +17,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The package offers a collection of macros and commands which
@@ -26,20 +24,12 @@ are intended to make typesetting chemistry documents faster and
 more convenient. Coverage includes some nomenclature commands,
 oxidation numbers, thermodynamic data, newman projections, etc.
 
-%pre
-    %_texmf_mktexlsr_pre
-
 %post
-    %_texmf_mktexlsr_post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
-    fi
+    %{_sbindir}/texlive.post
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -51,7 +41,6 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_de.tex
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.pdf
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,5 +51,3 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
