@@ -1,11 +1,11 @@
-# revision 25241
+# revision 25309
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2012-01-30 22:51:08 +0100
+# catalog-date 2012-02-05 19:30:19 +0100
 # catalog-license lppl1.3
-# catalog-version 3.0a
+# catalog-version 3.0c
 Name:		texlive-chemmacros
-Version:	3.0a
+Version:	3.0c
 Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
@@ -38,108 +38,108 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %{_texmfdistdir}/tex/latex/chemmacros/chemmacros-version1.cfg
 %{_texmfdistdir}/tex/latex/chemmacros/chemmacros.sty
 %{_texmfdistdir}/tex/latex/chemmacros/ghsystem.sty
+%{_texmfdistdir}/tex/latex/chemmacros/language/ghsystem_english.def
+%{_texmfdistdir}/tex/latex/chemmacros/language/ghsystem_german.def
+%{_texmfdistdir}/tex/latex/chemmacros/language/ghsystem_langtemplate.def
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_acid-8.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_acid-8.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_acid-8.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_acid.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_acid.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_acid.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_aqpol.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_aqpol.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_aqpol.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle-2-black.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle-2-black.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle-2-black.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle-2-white.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle-2-white.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle-2-white.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_bottle.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_exclam.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_exclam.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_exclam.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-1.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-1.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-1.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-2.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-2.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-2.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-3.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-3.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-3.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-4.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-4.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-4.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-5.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-5.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-5.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-6.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-6.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos-6.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_explos.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-2-black.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-2-black.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-2-black.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-2-white.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-2-white.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-2-white.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-3-black.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-3-black.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-3-black.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-3-white.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-3-white.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-3-white.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-1.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-1.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-1.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-2.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-2.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-2.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-3-black.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-3-black.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-3-black.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-3-white.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-3-white.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-4-3-white.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-5-2-black.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-5-2-black.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-5-2-black.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-5-2-white.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-5-2-white.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-5-2-white.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-O-5-1.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-O-5-1.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-O-5-1.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-O.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-O.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame-O.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_flame.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_health.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_health.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_health.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull-2.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull-2.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull-2.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull-6.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull-6.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull-6.png
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull.eps
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull.jpg
+%{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull.png
 %doc %{_texmfdistdir}/doc/latex/chemmacros/README
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros-codehelper.tex
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_de.pdf
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_de.tex
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.pdf
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.tex
-%doc %{_texmfdistdir}/doc/latex/chemmacros/language/ghsystem_english.def
-%doc %{_texmfdistdir}/doc/latex/chemmacros/language/ghsystem_german.def
-%doc %{_texmfdistdir}/doc/latex/chemmacros/language/ghsystem_langtemplate.def
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/acid-8.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/acid-8.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/acid-8.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/acid.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/acid.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/acid.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/aqpol.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/aqpol.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/aqpol.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle-2-black.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle-2-black.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle-2-black.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle-2-white.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle-2-white.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle-2-white.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/bottle.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/exclam.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/exclam.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/exclam.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-1.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-1.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-1.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-2.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-2.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-2.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-3.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-3.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-3.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-4.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-4.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-4.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-5.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-5.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-5.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-6.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-6.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos-6.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/explos.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-2-black.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-2-black.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-2-black.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-2-white.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-2-white.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-2-white.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-3-black.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-3-black.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-3-black.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-3-white.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-3-white.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-3-white.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-1.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-1.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-1.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-2.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-2.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-2.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-3-black.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-3-black.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-3-black.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-3-white.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-3-white.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-4-3-white.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-5-2-black.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-5-2-black.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-5-2-black.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-5-2-white.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-5-2-white.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-5-2-white.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-O-5-1.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-O-5-1.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-O-5-1.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-O.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-O.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame-O.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/flame.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/health.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/health.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/health.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull-2.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull-2.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull-2.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull-6.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull-6.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull-6.png
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull.eps
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull.jpg
-%doc %{_texmfdistdir}/doc/latex/chemmacros/pictures/skull.png
 
 #-----------------------------------------------------------------------
 %prep
