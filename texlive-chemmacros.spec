@@ -1,11 +1,11 @@
-# revision 25721
+# revision 26245
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2012-03-14 19:16:48 +0100
+# catalog-date 2012-05-07 19:24:22 +0200
 # catalog-license lppl1.3
-# catalog-version 3.1c
+# catalog-version 3.3
 Name:		texlive-chemmacros
-Version:	3.1c
+Version:	3.3
 Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
@@ -136,11 +136,10 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull.png
 %doc %{_texmfdistdir}/doc/latex/chemmacros/README
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemformula_test_sub_and_superscripts.tex
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros-codehelper.tex
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_de.pdf
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_de.tex
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.pdf
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_doc_en.tex
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_de.pdf
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_de.tex
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_en.pdf
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_en.tex
 
 #-----------------------------------------------------------------------
 %prep
