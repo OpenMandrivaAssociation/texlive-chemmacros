@@ -1,11 +1,11 @@
-# revision 27904
+# revision 27156
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2012-10-04 10:39:49 +0200
+# catalog-date 2012-07-24 16:56:26 +0200
 # catalog-license lppl1.3
-# catalog-version 3.4a
+# catalog-version 3.3d
 Name:		texlive-chemmacros
-Version:	3.4a
+Version:	3.3d
 Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
@@ -184,3 +184,54 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.3d-1
++ Revision: 812111
+- Update to latest release.
+
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.3-1
++ Revision: 804522
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1c-1
++ Revision: 787575
+- Update to latest release.
+
+* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 3.1b-2
++ Revision: 783481
+- rebuild without scriptlet dependencies
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1b-1
++ Revision: 782975
+- Update to latest release.
+
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1-1
++ Revision: 779420
+- Update to latest release.
+
+* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0c-1
++ Revision: 772028
+- Update to latest release.
+
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0a-1
++ Revision: 770118
+- Update to latest upstream package
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0a-2
++ Revision: 750147
+- Rebuild to reduce used resources
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0a-1
++ Revision: 729634
+- texlive-chemmacros
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0-1
++ Revision: 718044
+- texlive-chemmacros
+- texlive-chemmacros
+- texlive-chemmacros
+- texlive-chemmacros
+- texlive-chemmacros
+
