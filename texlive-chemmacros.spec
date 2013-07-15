@@ -1,11 +1,11 @@
-# revision 27156
+# revision 27904
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2012-07-24 16:56:26 +0200
+# catalog-date 2012-10-04 10:39:49 +0200
 # catalog-license lppl1.3
-# catalog-version 3.3d
+# catalog-version 3.4a
 Name:		texlive-chemmacros
-Version:	3.3d
+Version:	3.4a
 Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
@@ -187,6 +187,10 @@ cp -fpar tex doc %{buildroot}%{_texmfdistdir}
 
 
 %changelog
+* Fri Oct 26 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.4a-1
++ Revision: 819886
+- Update to latest release.
+
 * Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.3d-1
 + Revision: 812111
 - Update to latest release.
