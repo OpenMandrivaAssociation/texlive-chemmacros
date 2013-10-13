@@ -1,11 +1,11 @@
-# revision 27904
+# revision 31513
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2012-10-04 10:39:49 +0200
+# catalog-date 2013-08-24 18:58:05 +0200
 # catalog-license lppl1.3
-# catalog-version 3.4a
+# catalog-version 4.1
 Name:		texlive-chemmacros
-Version:	3.4a
+Version:	4.1
 Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
@@ -19,10 +19,18 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The package offers a collection of macros and commands which
-are intended to make typesetting chemistry documents faster and
+The bundle offers a collection of macros and commands which are
+intended to make typesetting chemistry documents faster and
 more convenient. Coverage includes some nomenclature commands,
 oxidation numbers, thermodynamic data, newman projections, etc.
+The four packages in the bundle are: - chemmacros, providing
+the basic requirements; - chemformula, providing a command for
+typesetting chemical formulae and reactions (doing a similar
+task to that of mhchem); - chemgreek, offering support for use
+of greek letters; and - ghsystem, providing for the UN globally
+harmonised chemical notation. The packages are written using
+current versions of the experimental LaTeX 3 coding conventions
+and the LaTeX 3 support packages.
 
 %post
     %{_sbindir}/texlive.post
@@ -35,6 +43,7 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/chemmacros/chemformula.sty
+%{_texmfdistdir}/tex/latex/chemmacros/chemgreek.sty
 %{_texmfdistdir}/tex/latex/chemmacros/chemmacros-version1.cfg
 %{_texmfdistdir}/tex/latex/chemmacros/chemmacros.sty
 %{_texmfdistdir}/tex/latex/chemmacros/ghsystem.sty
@@ -167,13 +176,15 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull.pdf
 %{_texmfdistdir}/tex/latex/chemmacros/pictures/ghsystem_skull.png
 %doc %{_texmfdistdir}/doc/latex/chemmacros/README
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemformula_en.pdf
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemformula_en.tex
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemformula_test_sub_and_superscripts.tex
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_de.pdf
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_de.tex
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemgreek_en.pdf
+%doc %{_texmfdistdir}/doc/latex/chemmacros/chemgreek_en.tex
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_en.pdf
 %doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_en.tex
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_it.pdf
-%doc %{_texmfdistdir}/doc/latex/chemmacros/chemmacros_it.tex
+%doc %{_texmfdistdir}/doc/latex/chemmacros/ghsystem_en.pdf
+%doc %{_texmfdistdir}/doc/latex/chemmacros/ghsystem_en.tex
 
 #-----------------------------------------------------------------------
 %prep
@@ -184,58 +195,3 @@ oxidation numbers, thermodynamic data, newman projections, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Oct 26 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.4a-1
-+ Revision: 819886
-- Update to latest release.
-
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.3d-1
-+ Revision: 812111
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.3-1
-+ Revision: 804522
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1c-1
-+ Revision: 787575
-- Update to latest release.
-
-* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 3.1b-2
-+ Revision: 783481
-- rebuild without scriptlet dependencies
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1b-1
-+ Revision: 782975
-- Update to latest release.
-
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1-1
-+ Revision: 779420
-- Update to latest release.
-
-* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0c-1
-+ Revision: 772028
-- Update to latest release.
-
-* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0a-1
-+ Revision: 770118
-- Update to latest upstream package
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0a-2
-+ Revision: 750147
-- Rebuild to reduce used resources
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0a-1
-+ Revision: 729634
-- texlive-chemmacros
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0-1
-+ Revision: 718044
-- texlive-chemmacros
-- texlive-chemmacros
-- texlive-chemmacros
-- texlive-chemmacros
-- texlive-chemmacros
-
