@@ -1,12 +1,12 @@
-# revision 32202
+# revision 32817
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2013-11-20 12:46:48 +0100
+# catalog-date 2014-01-29 17:25:56 +0100
 # catalog-license lppl1.3
-# catalog-version 4.2c
+# catalog-version 4.4
 Name:		texlive-chemmacros
-Version:	4.2c
-Release:	5
+Version:	4.40
+Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemmacros
@@ -23,14 +23,14 @@ The bundle offers a collection of macros and commands which are
 intended to make typesetting chemistry documents faster and
 more convenient. Coverage includes some nomenclature commands,
 oxidation numbers, thermodynamic data, newman projections, etc.
-The four packages in the bundle are: - chemmacros, providing
-the basic requirements; - chemformula, providing a command for
-typesetting chemical formulae and reactions (doing a similar
-task to that of mhchem); - chemgreek, offering support for use
-of greek letters; and - ghsystem, providing for the UN globally
-harmonised chemical notation. The packages are written using
-current versions of the experimental LaTeX 3 coding conventions
-and the LaTeX 3 support packages.
+The four packages in the bundle are: chemmacros, providing the
+basic requirements; chemformula (v4.2a), providing a command
+for typesetting chemical formulae and reactions (doing a
+similar task to that of mhchem); chemgreek (v0.2a), offering
+support for use of greek letters; and ghsystem, providing for
+the UN globally harmonised chemical notation. The packages are
+written using current versions of the experimental LaTeX 3
+coding conventions and the LaTeX 3 support packages.
 
 %post
     %{_sbindir}/texlive.post
@@ -44,7 +44,6 @@ and the LaTeX 3 support packages.
 %files
 %{_texmfdistdir}/tex/latex/chemmacros/chemformula.sty
 %{_texmfdistdir}/tex/latex/chemmacros/chemgreek.sty
-%{_texmfdistdir}/tex/latex/chemmacros/chemmacros-version1.cfg
 %{_texmfdistdir}/tex/latex/chemmacros/chemmacros.sty
 %{_texmfdistdir}/tex/latex/chemmacros/ghsystem.sty
 %{_texmfdistdir}/tex/latex/chemmacros/language/ghsystem_english.def
