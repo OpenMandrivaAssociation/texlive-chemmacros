@@ -1,12 +1,12 @@
-# revision 32817
+# revision 33447
 # category Package
 # catalog-ctan /macros/latex/contrib/chemmacros
-# catalog-date 2014-01-29 17:25:56 +0100
+# catalog-date 2014-04-10 17:34:17 +0200
 # catalog-license lppl1.3
-# catalog-version 4.4
+# catalog-version 4.5
 Name:		texlive-chemmacros
-Version:	4.40
-Release:	2
+Version:	4.50
+Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemmacros
