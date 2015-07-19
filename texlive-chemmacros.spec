@@ -6,7 +6,7 @@
 # catalog-version 4.5
 Name:		texlive-chemmacros
 Version:	4.50
-Release:	3
+Release:	4
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemmacros
