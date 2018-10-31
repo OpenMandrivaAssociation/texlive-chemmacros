@@ -1,6 +1,6 @@
 Name:		texlive-chemmacros
 Version:	5.8b
-Release:	1
+Release:	2
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemmacros
