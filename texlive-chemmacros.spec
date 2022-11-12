@@ -1,12 +1,12 @@
 Name:		texlive-chemmacros
-Version:	5.8b
-Release:	2
+Version:	62655
+Release:	1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemmacros
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.r62655.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.doc.r62655.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,12 +27,12 @@ written using current versions of the experimental LaTeX 3
 coding conventions and the LaTeX 3 support packages.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -41,7 +41,7 @@ coding conventions and the LaTeX 3 support packages.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
