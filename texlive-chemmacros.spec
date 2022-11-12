@@ -5,8 +5,8 @@ Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemmacros
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.r62655.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.doc.r62655.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
