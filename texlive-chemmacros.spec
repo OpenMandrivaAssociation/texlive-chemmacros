@@ -1,50 +1,32 @@
-Name:		texlive-chemmacros
-Version:	62655
-Release:	2
+%global tl_name chemmacros
+%global tl_revision 76924
+
+Name:		texlive-%{tl_name}
+Epoch:		1
+Version:	6.2a
+Release:	%{tl_revision}.1
 Summary:	A collection of macros to support typesetting chemistry documents
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chemmacros
-License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.r%{version}.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.doc.r%{version}.tar.xz
+License:	lppl1.3c
+Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.r%{tl_revision}.tar.xz
+Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/chemmacros.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
+BuildSystem:	texlive
 BuildRequires:	texlive-tlpkg
-Requires(pre):	texlive-tlpkg
-Requires(post):	texlive-kpathsea
+%texlive_base_requires
+Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
-The bundle offers a collection of macros and commands which are
-intended to make typesetting chemistry documents faster and
-more convenient. Coverage includes some nomenclature commands,
-oxidation numbers, thermodynamic data, newman projections, etc.
-The four packages in the bundle are: chemmacros, providing the
-basic requirements; chemformula (v4.2a), providing a command
-for typesetting chemical formulae and reactions (doing a
-similar task to that of mhchem); chemgreek (v0.2a), offering
-support for use of greek letters; and ghsystem, providing for
-the UN globally harmonised chemical notation. The packages are
-written using current versions of the experimental LaTeX 3
-coding conventions and the LaTeX 3 support packages.
+The bundle offers a collection of macros and commands which are intended
+to make typesetting chemistry documents faster and more convenient.
+Coverage includes some nomenclature commands, oxidation numbers,
+thermodynamic data, newman projections, etc. The package relies on the
+following supporting packages: chemformula, providing a command for
+typesetting chemical formulae and reactions (doing a similar task to
+that of mhchem); chemgreek, offering support for use of greek letters;
+and ghsystem, providing for the UN globally harmonised chemical
+notation. The packages are written using current versions of the
+experimental LaTeX 3 coding conventions and the LaTeX 3 support
+packages.
 
-%post
-%{_sbindir}/texlive.post
-
-%postun
-if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-fi
-
-#-----------------------------------------------------------------------
-%files
-%{_texmfdistdir}/tex/latex/chemmacros
-%doc %{_texmfdistdir}/doc/latex/chemmacros
-
-#-----------------------------------------------------------------------
-%prep
-%autosetup -p1 -c -a1
-
-%build
-
-%install
-mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar tex doc %{buildroot}%{_texmfdistdir}
